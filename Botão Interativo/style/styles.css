@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(73, 73, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(92, 122, 34);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
+  }
+
+  .botao{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(179, 182, 204);
+    color: black;
+    transition: all 0.3s ease;
+
+  }
+
+  .botao:hover{
+    background-color: rgb(31, 43, 105);
+    color: white;
+  }
+  .oculto {
+    display: none; /* Não inserimos o display, usamos o JS */
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  
